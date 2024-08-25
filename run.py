@@ -23,4 +23,21 @@ def get_actual_data():
     hours_worked = input("Enter hours here:")
     print(f"Hours provided are {hours_worked}")
 
+    actual_data = hours_worked.split(",")
+    validate_data(actual_data)
+
+def validate_data(values):
+    """
+    Inside the try, converts all string values into float.
+    Raises valueError if strings cannot be converted into float,
+    or if there isn't the correct amount of values (10)
+    """
+    try:
+        if len(values) != 10:
+            raise ValueError(
+                f"Exactly 10 values required, you provided {len(values)}"
+            )
+    except ValueError as e:
+        print(f"invalid data: {e}, please try again.\n")        
+
 get_actual_data()

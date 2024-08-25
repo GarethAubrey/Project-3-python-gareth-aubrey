@@ -12,8 +12,15 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('Work_hours')
 
-expected = SHEET.worksheet('expected')
+def get_actual_data():
+    """
+    Get hours worked (actual) data fom user
+    """
+    print("Please enter number of hours worked by each employee.")
+    print("Data should be 10 numbers, seperated by commas")
+    print("Example: 12,8,6,0,0,0,12,8,6,0\n")
 
-data = expected.get_all_values()
+    hours_worked = input("Enter hours here:")
+    print(f"Hours provided are {hours_worked}")
 
-print(data)
+get_actual_data()

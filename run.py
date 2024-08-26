@@ -53,6 +53,25 @@ def validate_data(values):
         print(f"invalid data: {e}, please try again.\n")     
         return False
 
-    return True       
+    return True    
 
-data = get_actual_data()
+def update_actual_worksheet(data):
+    """
+    Update actual worksheet, add new row with the list data provided
+    """
+    print("Updating actual worksheet...\n")
+    actual_worksheet = SHEET.worksheet("actual")
+    actual_worksheet.append_row(data)
+    print("Actual worksheet updated successfully.\n")
+
+
+def main():
+    """
+    Run all program functions
+    """
+    data = get_actual_data()
+    actual_data = [float(num) for num in data]
+    update_actual_worksheet(actual_data)       
+
+
+main()

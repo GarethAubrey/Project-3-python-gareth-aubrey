@@ -12,7 +12,7 @@ In my current job as a security controller one of our main issues is keeping up 
 
 I achieved the end goal using the Love Sandwiches Walk through project from Code Institute, this walk through allowed me to set the base code but then I was able to change the relevant parts to suit my own needs.
 
-### Screenshots and technology used
+### How and why the project is used.
 
 Below you will see some screen shots from the google sheets after some data has been added by the user - 
 
@@ -52,4 +52,20 @@ If Wrong data has been provided then the program will tell the user that they ha
 
 Some features I would like to implement in the future are, another worksheet for staff holidays and that will be linked to the total hours worksheet as the staff all receive holiday pay. The main feature I would like to add would be a pie chart that would allow management to see how the hours are being spread out amongst the staff, this will allow the management to make changes if needed and will help in appraisals at the end of the year.
 
+
+<div align="center>
+  
+## Technologies used
+
+</div>
+
+* Python3
+* Heroku
+
+
+<div align="center>
+
+Frameworks, Libraries and programmes used.
+
+</div>
 

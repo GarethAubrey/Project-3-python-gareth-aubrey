@@ -47,3 +47,9 @@ If Wrong data has been provided then the program will tell the user that they ha
 ![Screenshot 2024-08-27 171317](https://github.com/user-attachments/assets/06c963ed-e524-4c34-85a0-901bbd7ff77e)
 
 </div>
+
+## Features left to implement
+
+Some features I would like to implement in the future are, another worksheet for staff holidays and that will be linked to the total hours worksheet as the staff all receive holiday pay. The main feature I would like to add would be a pie chart that would allow management to see how the hours are being spread out amongst the staff, this will allow the management to make changes if needed and will help in appraisals at the end of the year.
+
+

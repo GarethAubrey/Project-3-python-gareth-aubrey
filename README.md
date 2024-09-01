@@ -48,24 +48,53 @@ If Wrong data has been provided then the program will tell the user that they ha
 
 </div>
 
-## Features left to implement
+##  Features left to implement
 
 Some features I would like to implement in the future are, another worksheet for staff holidays and that will be linked to the total hours worksheet as the staff all receive holiday pay. The main feature I would like to add would be a pie chart that would allow management to see how the hours are being spread out amongst the staff, this will allow the management to make changes if needed and will help in appraisals at the end of the year.
 
-
-<div align="center>
   
-## Technologies used
+##  Technologies used
 
-</div>
 
 * Python3
 * Heroku
 
 
-<div align="center>
+##  Frameworks, Libraries and programmes used.
 
-Frameworks, Libraries and programmes used.
 
-</div>
+* Git - for version control
+* Heroku - Deployment of the app
+* Gitpod - For writing the code
+* CI python linter - validator used
 
+
+##  Testing
+
+
+The Code Institute python validator was used to check the raw code that was wrote for the app.
+
+![Screenshot 2024-09-01 092454](https://github.com/user-attachments/assets/c0a3a1cb-c358-4a2e-9d82-bae250c78c94)
+
+
+##  Manual Testing
+
+* The app has been thouroghly tested by myself and numerous devices including Laptop, Tablet and Mobile phone.
+* The app was also tested on different browsers to make sure it is compatatble.
+* I also asked several family members to use the app to see if it usable by people of different computer levels.
+
+
+##  Fixed Bugs
+
+
+When i first put my code throught the validator it became apparent that there was some whitespace on a couple of lines which i corrected and also some indentation issues that were corrected before running the code through the validator again, after these issues were resolved the validator came back with no issues.
+
+
+##  Deployment
+
+Heroku was used for the deployment of the app which is a contaniner based cloud platform as a service (PaaS), This is used by developers to deploy, manage and scale apps. My app has been set to manual update so any changes i do will have to be pushed through Heroku to update the app  but developers can also use the automatic function that Heroku uses so that any updates pushed through GitHub the app is automatocally updated.
+
+
+##  Credits
+
+* Code Institute "Love Sandwiches" walk through was used as a guideline for the full project which helped me write the code and learn as i went through the project.
